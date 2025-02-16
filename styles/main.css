@@ -26,7 +26,7 @@ body {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 1.13rem;
-  padding-block: 1rem;
+  padding-block: 1rem 5rem;
   width: 90%;
   line-height: 1.6;
   max-width: 90rem;
@@ -278,6 +278,7 @@ video {
 .about-author {
   p {
     font-size: 1.25rem;
+    text-align: justify;
   }
 }
 
@@ -380,8 +381,8 @@ video {
   }
 
   .main-footer {
-    display: flex;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr auto;
+    align-items: flex-start;
   }
 
   .about-author {
@@ -390,6 +391,7 @@ video {
 
   .other-books {
     max-width: 24rem;
+    grid-column: 1/-1;
   }
 
   .hero-book_title {
@@ -400,6 +402,12 @@ video {
     h2 {
       font-size: 1.6rem;
     }
+  }
+}
+
+@media (min-width: 81.25rem) {
+  .main-footer {
+    display: flex;
   }
 }
 
