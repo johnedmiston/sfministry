@@ -205,7 +205,7 @@ video {
 .main-wrapper {
   display: grid;
   gap: 4rem;
-  margin-block: 10rem 7rem;
+  margin-block: 9rem;
 }
 
 .book-chapters {
