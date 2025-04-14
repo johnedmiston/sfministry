@@ -1,5 +1,6 @@
 # sfministry
 Website for the book Solution-Focused Ministry by John Edmiston
+
  Solution-Focused Ministry is a Christian leadership book
 2. Change colors to match new book cover
 3. Add pages for the course on Moodle
