@@ -1,0 +1,96 @@
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+  /* font-family: 'Segoe UI', Arial, sans-serif; */
+  padding: 0 1rem;
+}
+
+.contact-icons-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-icons-img {
+  max-width: 700px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-details-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.contact-logo-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.cybermissions-logo {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.cybermissions-tagline {
+  font-size: 1rem;
+  color: #222;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.contact-info-block {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact-title {
+  color: #2196f3;
+  font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;
+}
+
+.contact-info-text p {
+  font-size: 1.15rem;
+  margin: 0.5rem 0;
+  color: #111;
+}
+
+.contact-info-text a {
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media (max-width: 43.75rem) {
+  .contact-details-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .contact-info-block,
+  .contact-logo-block {
+    align-items: center;
+    text-align: center;
+  }
+}

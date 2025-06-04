@@ -9,49 +9,87 @@
 </head>
 
 <body>
-  <header class="hero">
-    <div class="hero-main_content">
-      <h1>Solution-Focused Ministry</h1>
 
-      <div class="hero-book_title">
-        <h2>new mindset | new methods</h2>
-
-        <!-- Video link -->
-
-        <figure>
-          <video width="200" height="200" controls>
-
-            <source src="./assets/video/promotional-video.mp4" type="video/mp4" />
-          </video>
-
-          <!-- Add description for video -->
-          <figcaption></figcaption>
-        </figure>
-
-        <p>How to Turn A Godly Vision into A Dynamic Reality in the 21st Century</p>
-      </div>
-      <strong class="by-author">by John Edmiston</strong>
-      <div class="learn-more">
-        <a class="learn-more-btn">learn more</a>
-      </div>
-
-    </div>
-
-    <div class="hero-image_content">
-      <img src="./assets/images/book-cover.webp" alt="front cover of book" width="300" height="500" />
-      <p>Arriving on Amazon - March 15th 2025</p>
-    </div>
-
-    <div class="scroll-down">
-      <a href="#main-section" aria-label="scroll down" class="scroll-down-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-          <path
-            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
-        </svg>
+  <header class="main-header">
+    <div>
+      <a href="/" class="logo">
+        <img src="./assets/images/cyber-missions-logo.jpg" alt="cybermissions logo" width="70" height="70" />
       </a>
     </div>
+
+    <button type="button" aria-haspopup="true" aria-expanded="false" aria-controls="navigation-menu" id="open-menu"
+      aria-label="toggle navigation menu" class="main-header__open-menu">
+      <svg fill="var(--primary)" class="hamburger" viewBox="0 0 100 100" width="100">
+        <rect class="line top" width="80" height="10" x="10" y="25" rx="5">
+        </rect>
+        <rect class="line middle" width="80" height="10" x="10" y="45" rx="5">
+        </rect>
+        <rect class="line bottom" width="80" height="10" x="10" y="65" rx="5">
+        </rect>
+      </svg>
+    </button>
+
+    <nav class="main-nav" id="navigation-menu">
+      <ul class="main-nav-items">
+        <li>
+          <a href="./html/contact.html">Contact</a>
+        </li>
+
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="./html/testimonials.html">Testimonials</a>
+        </li>
+      </ul>
+    </nav>
   </header>
+
   <main id="main-section">
+
+    <section class="hero">
+      <div class="hero-main_content">
+        <h1>Solution-Focused Ministry</h1>
+
+        <div class="hero-book_title">
+          <h2>new mindset | new methods</h2>
+
+          <!-- Video link -->
+
+          <figure>
+            <video width="200" height="200" controls>
+
+              <source src="./assets/video/promotional-video.mp4" type="video/mp4" />
+            </video>
+
+            <!-- Add description for video -->
+            <figcaption></figcaption>
+          </figure>
+
+          <p>How to Turn A Godly Vision into A Dynamic Reality in the 21st Century</p>
+        </div>
+        <strong class="by-author">by John Edmiston</strong>
+        <div class="learn-more">
+          <a class="learn-more-btn">learn more</a>
+        </div>
+
+      </div>
+
+      <div class="hero-image_content">
+        <img src="./assets/images/book-cover.jpeg" alt="front cover of book" width="300" height="500" />
+        <p>Available on Amazon in both print and Kindle editions</p>
+      </div>
+
+      <div class="scroll-down">
+        <a href="#main-section" aria-label="scroll down" class="scroll-down-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path
+              d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+          </svg>
+        </a>
+      </div>
+    </section>
     <section class="main-wrapper">
       <div class="book-chapters">
         <div>
@@ -59,7 +97,7 @@
 
           <ul>
             <li>Being solution-focused</li>
-            <li>the solution-focused christain</li>
+            <li>the solution-focused Christian</li>
             <li>the masterful mind</li>
           </ul>
         </div>
@@ -81,35 +119,40 @@
 
       <div class="book-summary">
         <p>Solution-Focused Ministry is a Christian leadership book about a new mindset - being Solution-Focused - and
-          about the new methods that flow from this biblical way of looking at life, ministry, people and problems.</p>
+          about the new methods that flow from this biblical way of looking at life, ministry, people and problems.
+        </p>
         <br />
-        <p>The first three chapters detail the solution-focused mindset, and the last five chapters will look at how to
+        <p>The first three chapters detail the solution-focused mindset, and the last five chapters will look at how
+          to
           apply this mindset to your ministry.</p>
         <br />
         <p>Solution-Focused Ministry is designed for all those who are in Christian service (pastors, evangelists,
           teachers, non-profit leaders and missionaries), to give them a path out of "being stuck". It combines
-          scriptural insight with deep practical application and exercises that will help you to construct your own
+          Scriptural insight with deep practical application and exercises that will help you to construct your own
           unique path into the future.</p>
 
         <div class="buy-now">
-          <button class="buy-now-btn">buy now</button>
+          <a href="https://www.amazon.com/Solution-Focused-Ministry-Dynamic-Reality-Century/dp/B0F7RNFDX6/"
+            target="_blank" class="buy-now-btn">buy now</a>
         </div>
       </div>
     </section>
   </main>
-  <footer class="main-footer">
+  <footer class="main-footer" id="about">
     <header class="about-author">
       <h4>About the Author</h4>
 
-      <p>John Edmiston is the CEO of Cybermissions, a Christain digital non-profit that provides free and low-cost
-        theological educatio to those who need it most. John has lived in Australia, Nauru, Papua New Guinea, and the
+      <p>John Edmiston is the CEO of Cybermissions, a Christian digital non-profit that provides free and low-cost
+        theological education to those who need it most. John has lived in Australia, Nauru, Papua New Guinea, and the
         Philippines and he now lives in Virginia, USA with his wife Minda. John Edmiston has ministered in 18 nations.
       </p>
       <br>
 
-      <p>John Edmiston was one of the early pioneers of internet ministry and mobile ministry. He has taught at the Asia
+      <p>John Edmiston was one of the early pioneers of internet ministry and mobile ministry. He has taught at the
+        Asia
         Theological Seminary and Fuller Theological Seminary as well as at various bible schools and missionary
-        conferences. John Edmiston is available to preach, teach, do podcasts, radio and TV shows, both in-person and by
+        conferences. John Edmiston is available to preach, teach, do podcasts, radio and TV shows, both in-person and
+        by
         Zoom.</p>
     </header>
 
@@ -148,6 +191,8 @@
       </ul>
     </div>
   </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
