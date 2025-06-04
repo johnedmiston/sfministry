@@ -254,6 +254,10 @@ video {
   display: flex;
   justify-content: flex-end;
 
+  &.center {
+    justify-content: center;
+  }
+
   .buy-now-btn {
     text-transform: uppercase;
     background-color: #ffd600;
